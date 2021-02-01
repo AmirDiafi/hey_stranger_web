@@ -1,11 +1,16 @@
 .container {
+	margin: 20px auto 0;
+	padding-bottom: 80px;
+}
+
+.header-content {
 	justify-content: center;
 	align-items: center;
 	display: flex;
 }
 
 @media (min-width: 500px) {
-	.container {
+	.header-content {
 		border-radius: 20px;
 		background: hsl(0deg 0% 100% / 86%);
 		padding: 10px;

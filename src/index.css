@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	font-family: 'Abel', sans-serif !important;
+	position: relative;
 	height: 100vh;
 }
 

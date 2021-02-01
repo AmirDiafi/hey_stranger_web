@@ -10,14 +10,14 @@ class Header extends React.Component {
 	render() {
 		return (
 			<>
-				<h1 className='text-center' style={{ marginTop: 20, marginBottom: 20 }}>
+				<h1 className='text-center' style={{ marginBottom: 20 }}>
 					Hey, Stranger!{' '}
 					<span role='img' aria-label='aria-label'>
 						{' '}
 						👏{' '}
 					</span>
 				</h1>
-				<div className='container text-center'>
+				<div className='header-content text-center'>
 					<div className='row'>
 						<div className='col-12 col-md-6 download-container'>
 							<div>
@@ -34,7 +34,7 @@ class Header extends React.Component {
 									Verified
 								</p>
 								<h4 style={{ marginTop: 15 }}>Download it Now</h4>
-								<p>Descover the Strangers Story and secret NOW</p>
+								<p>Descover the Strangers stories and thier secrets NOW</p>
 							</div>
 						</div>
 						<div className='col-12 col-md-6'>
