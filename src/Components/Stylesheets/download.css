@@ -1,0 +1,43 @@
+.download-container {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+a.btn {
+	background-color: #ff2e63;
+	border-color: #ff2e63;
+	outline-color: #ff2e63;
+	border-radius: 30px;
+	width: 110px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+}
+
+a.btn:hover,
+a.btn:active,
+a.btn:focus {
+	background-color: #252a34;
+	border-color: #252a34;
+	outline-color: #252a34;
+}
+
+.security {
+	color: rgb(29, 141, 238);
+	margin-top: 10px;
+	display: flex;
+	margin: 10px auto;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo {
+	width: 80px;
+	height: 80px;
+	margin-bottom: 10px;
+	border-radius: 100%;
+	box-shadow: 1px 1px 4px #252a3475;
+}

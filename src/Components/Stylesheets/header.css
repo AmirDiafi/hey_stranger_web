@@ -1,0 +1,13 @@
+.container {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+@media (min-width: 500px) {
+	.container {
+		border-radius: 20px;
+		background: hsl(0deg 0% 100% / 86%);
+		padding: 10px;
+	}
+}

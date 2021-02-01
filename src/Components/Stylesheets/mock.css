@@ -1,0 +1,26 @@
+.mockContainer {
+	width: 400px;
+	position: relative;
+	margin: 10px auto;
+}
+
+.mockContainer img.mockMob {
+	height: 400px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	z-index: 2;
+	transform: translateX(-50%);
+	display: none;
+}
+
+.mockContent {
+	width: 210px;
+	position: absolute;
+	top: 8px;
+	left: 50%;
+	z-index: 1;
+	transform: translateX(-50%);
+	border-radius: 15px;
+	box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.493);
+}

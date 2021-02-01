@@ -1,0 +1,19 @@
+body {
+	margin: 0;
+	font-family: 'Abel', sans-serif !important;
+	height: 100vh;
+}
+
+* {
+	user-select: none;
+	user-zoom: fixed;
+}
+
+@media (min-width: 500px) {
+	body {
+		background-color: #252a34 !important;
+	}
+	h1 {
+		color: #eaeaea;
+	}
+}
